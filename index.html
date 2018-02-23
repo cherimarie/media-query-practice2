@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Iguana Diet</title>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/original.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>All About Iguanas!</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Lifecycle</a></li>
+          <li><a href="#">Environments</a></li>
+          <li><a href="#">Personality</a></li>
+          <li class="active"><a href="#">Diet</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <article>
+    <h2>Diet</h2>
+
+    <p>Iguanas have many small teeth which they rip and tear their food with, instead of chewing it. Usually, they will take large bites and swallow their food whole and occassionally they will just tongue-flick their food into their mouths. When they drink water, which is usually only occasionally, they will dip a large portion of their head into the water, lapping up the water under the surface or sometimes they may even lick water droplets off of plants and other misted surfaces.</p>
+
+    <figure>
+    <!-- img is max-width 100% of figure, which is 66% of article, which is 75% of container,
+    which is 90% of viewport = figure is 44.55% width of viewport, and img is 100% of that or 638px,
+    whichever is smaller
+    - if viewport is 1433, img will be 638px (native width)
+    - viewport 1122, img 500
+    - viewport 673, img 300     -->
+      <img srcset="images/yellow-iguana-eating-fuit.jpg 638w, images/yellow-iguana-eating-fuit500.jpg 500w, images/yellow-iguana-eating-fuit300.jpg 300w"
+        sizes="(max-width: 673px) 300, (max-width: 1122) 500px, (min-width: 1433px) 638px"
+        src="images/yellow-iguana-eating-fuit.jpg"
+        alt="yellow iguana eating fruit">
+      <figcaption>Iguanas Love Fruit</figcaption>
+    </figure>
+
+    <p>With the increased popularity of pet iguanas and the fact that there is still much to be learned about them, diets as well as many other aspects will constantly be debated and discussed. Instead of providing a specific diet or listings of foods that must be fed, the Green Iguana Society would like to provide listings of foods that may be fed, foods that have been known to be dangerous, and leave it up to the iguana owner to decide which foods should be fed. We realize every iguana is different and every iguana owner is just as different, so instead of continuing a debate on diets, we would like to state that these are only our recommendations of foods that can be chosen as a part of a complete and healthy diet. Basically, we want to provide as many facts that are known about certain foods and methods, and hope that each person will plan their own iguana diet based on the information we provide.</p>
+
+    <p>Along with proper diet and temperature, proper lighting and exposure to natural sunlight will most definitely help in utilizing the calcium provided in the iguanas diet. Iguanas produce vitamin D3 when they are exposed to proper amounts of UVB rays and vitamin D3 is needed in order for the calcium to be absorbed. This may sound a bit confusing, but as long as the proper amount of quality UVB lighting and sunlight is provided, vitamin D3 should be produced and the calcium in the diet will be fully utilized.</p>
+
+    <small>Source: <a href="http://www.greenigsociety.org/feedingigs.htm">Green Iguana Society</a></small>
+  </article>
+
+  <footer>
+    <span>Stay up to date with the latest iguana news!</span>
+    <form>
+      <label>
+        Sign up for our email newsletter:
+        <input type="email" name="email">
+      </label>
+      <input type="submit" value="Sign Up"
+    </form>
+  </footer>
+</div>
+</body>
+</html>
